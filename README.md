@@ -30,7 +30,9 @@ Since it's hard to find the null forgiving operators in code,
 this Visual Studio Extension lists all occurrences, 
 categorizes them, and even detects those that are still present in code but no longer needed.
 
-Occurrences are grouped into three categories, to reflect their different 
+**Required** - shows if the occurence is no longer needed
+
+**Context** - occurrences are grouped into three categories, to reflect their different 
 contexts:
 - General usages of the null-forgiving operator.
 - Null-forgiving operator on the `null` or `default` literals.
